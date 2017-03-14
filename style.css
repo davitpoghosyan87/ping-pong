@@ -1,0 +1,126 @@
+.obj
+{
+   position: absolute;
+   border: 0px;
+}
+.leftt
+{
+   margin-top:270px;
+   float:left;
+   color:red;
+}
+.rightt
+{
+   float:right;
+   position:absolute;
+   left:60%;
+   color:red;
+}
+.design
+{
+  position:relative;margin-top:0px;z-index:1;border:solid grey 4px;/*width:600px;*/height:350px;background:#0080FF;
+}
+.centerlinee
+{
+  position:absolute;left:335px;z-index:3;height:345px;border-left:dashed grey 1px;
+}
+select {
+        width:120%;
+        background: #FFF;
+	overflow: hidden;
+	display: inline-block;
+	color: #525252;
+	font-weight: 300;
+	-webkit-border-radius: 5px 4px 4px 5px/5px 5px 4px 4px;
+	-moz-border-radius: 5px 4px 4px 5px/5px 5px 4px 4px;
+	border-radius: 5px 4px 4px 5px/5px 5px 4px 4px;
+	-webkit-box-shadow: 0 0 5px rgba(123, 123, 123, 0.2);
+	-moz-box-shadow: 0 0 5px rgba(123,123,123,.2);
+	box-shadow: 0 0 5px rgba(123, 123, 123, 0.2);
+	border: solid 1px #DADADA;
+	font-family: "helvetica neue",arial;
+	position: relative;
+	cursor: pointer;
+	padding-right:20px;
+}
+.spn_btn
+{
+  /* margin-left:150px;*/
+  float:right;
+}
+.spn_count
+{
+   /*float:right;*/padding:20px;
+    margin-left:220px;
+    color:black;
+}
+input[type="button"]
+{
+	padding:7px 14px;
+	font-weight:bold;
+	color:#fff;
+	cursor:pointer;
+	border-radius:.3em;
+	-moz-border-radius:.2em;
+	-webkit-border-radius:.2em;
+	-o-border-radius:.2em;
+	margin:10px 0;
+	border:none;
+}
+input[type="button"]
+{
+	background:#468cd2;
+	border-bottom:#3277bc 3px solid;
+	text-shadow:#214d73 1px 1px 0px;
+}
+select
+{
+	width:99%;
+	background:#fff;
+	border:#ddd 1px solid;
+	border-radius:.35em;
+	-moz-border-radius:.35em;
+	-webkit-border-radius:.35em;
+	-o-border-radius:.35em;
+	padding:0 .5%;
+	margin-top:5px;
+	margin-bottom:15px;
+	height:35px;
+}
+.resp_code
+{
+margin:5px 10px 10px 300px;
+padding:10px 20px 10px 20px;
+font:normal 1em/1.3em Tahoma, Geneva, sans-serif;
+overflow:auto;width:50%;
+}
+body {
+    background: #fff none repeat scroll 0 0;
+    color: black;
+    font: 0.81em/150% Tahoma,Geneva,sans-serif;
+    word-wrap: break-word;
+}
+@media screen and (max-width: 480px) 
+{
+        .resp_code{width:auto !important;margin:0px !important;}                
+         .centerlinee
+         {
+           position:absolute;left:127px !important;z-index:3;height:330px;border-left:dashed grey 1px;
+         }
+         .spn_count
+         {
+            margin-left: 20px !important;
+            padding: 20px !important;
+         }        
+}
+@media screen and (max-width: 900px) 
+{
+   .resp_code
+   {
+      margin: 5px 10px 10px;
+      padding:10px 20px 10px 20px;
+      width:94%;
+   }
+   .centerlinee{left:350px;}
+   .spn_count {margin-left: 250px;}
+}
